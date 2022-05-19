@@ -52,6 +52,7 @@ color: #898991;
 }
 
 .header__button {
+display:block;
 text-align: center;
 padding-top: 10px;
 width: 218px;
