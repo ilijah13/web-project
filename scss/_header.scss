@@ -1,6 +1,10 @@
 .header {
 	margin-top: 97px;
 
+	.container {
+		margin: 0 auto;
+	}
+
 		.header__row {
 			display: flex;
 			justify-content: space-between;
