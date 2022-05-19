@@ -125,6 +125,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .create-a-memory {
   background-color: #232323;
+  position: relative;
+}
+.create-a-memory .create-a-memory__left-img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.create-a-memory .create-a-memory__right-img {
+  position: absolute;
+  bottom: 75px;
+  right: 0;
 }
 .create-a-memory .container {
   max-width: 440px;
