@@ -1,10 +1,21 @@
 .create-a-memory {
 
 	background-color: #232323;
+	position: relative;
+
+	.create-a-memory__left-img {
+		position: absolute;
+		top: 50px;
+		left: 0;
+	}
+	.create-a-memory__right-img {
+		position: absolute;
+		bottom: 75px;
+		right: 0;
+	}
 
 
 	.container {
-
 		max-width: 440px;
 		text-align: center;
 		margin: 0 auto;
