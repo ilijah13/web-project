@@ -76,7 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   margin-top: 97px;
 }
-
 .header .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,17 +84,14 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .header .header__row .header__menu .header__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .header .header__row .header__menu .header__links li {
   margin-left: 77px;
 }
-
 .header .header__row .header__menu .header__links li:nth-child(1) a {
   font-size: 20.9px;
   line-height: 1.2;
@@ -104,7 +100,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #232323;
   text-shadow: 0 1px 0 #232323;
 }
-
 .header .header__row .header__menu .header__links li a {
   font-size: 20.9px;
   line-height: 1.2;
@@ -112,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #898991;
 }
-
 .header .header__row .header__button {
   display: block;
   text-align: center;
@@ -132,14 +126,12 @@ h1, h2, h3, h4, h5, h6 {
 .create-a-memory {
   background-color: #232323;
 }
-
 .create-a-memory .container {
   max-width: 440px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 170px;
 }
-
 .create-a-memory .container .create-a-memory__title {
   font-size: 55.5px;
   line-height: 55px;
@@ -149,7 +141,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 50px;
   margin-bottom: 40px;
 }
-
 .create-a-memory .container .create-a-memory__text {
   font-size: 16.7px;
   line-height: 1.2;
@@ -158,7 +149,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #e9e7e7;
   margin-bottom: 40px;
 }
-
 .create-a-memory .container .create-a-memory__button {
   font-size: 20.9px;
   line-height: 1.2;
