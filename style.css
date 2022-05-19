@@ -67,34 +67,101 @@ text-shadow: 0 1px 0 #232323;
 }
 .button {
 }
-.content {
+
+:focus, :active {
+  outline: none;
 }
-.title{
-	font-family: 'Cardo', serif;
+
+a:focus, a:active {
+  outline: none;
 }
-.travel-to-dream {
+
+nav, footer, header, aside {
+  display: block;
 }
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/* CREATE A MEMORY */
 .create-a-memory {
+  background-color: #232323;
 }
-.articles {
+.create-a-memory .container {
+  max-width: 440px;
+  text-align: center;
+  margin: 0 auto;
 }
-.see-places {
+.create-a-memory .container .create-a-memory__title {
+  font-size: 55.5px;
+  line-height: 55px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #e9e7e7;
+  padding-top: 50px;
+  margin-bottom: 40px;
 }
-.big-photos {
+.create-a-memory .container .create-a-memory__text {
+  font-size: 16.7px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #e9e7e7;
+  margin-bottom: 40px;
 }
-.choose-anywhere {
+.create-a-memory .container .create-a-memory__button {
+  font-size: 20.9px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #e9e7e7;
+  background-color: #232323;
+  width: 259px;
+  height: 57px;
+  border: 3px solid #e9e7e7;
+  border-radius: 5px;
+  margin-bottom: 50px;
 }
-.list {
-}
-.here-what-to-say-title {
-}
-.customers {
-}
-.form {
-}
-.footer {
-}
+
+/* END OF CREATE A MEMORY */
