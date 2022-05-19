@@ -1,0 +1,53 @@
+.create-a-memory {
+
+	background-color: #232323;
+
+
+	.container {
+
+		max-width: 440px;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 170px;
+
+		.create-a-memory__title {
+			// font-family: Cardo;
+			font-size: 55.5px;
+			line-height: 55px;
+			font-weight: 700;
+			letter-spacing: -0.025em;
+			color: #e9e7e7;
+			padding-top: 50px;
+			margin-bottom: 40px;
+		}
+
+		.create-a-memory__text {
+			// font-family: Lato;
+			font-size: 16.7px;
+			line-height: 1.2;
+			font-weight: 400;
+			letter-spacing: -0.025em;
+			color: #e9e7e7;
+			margin-bottom: 40px;
+		}
+
+		.create-a-memory__button {
+			// font-family: Lato;
+			font-size: 20.9px;
+			line-height: 1.2;
+			font-weight: 700;
+			letter-spacing: -0.025em;
+			color: #e9e7e7;
+			background-color: #232323;
+
+			width: 259px;
+			height: 57px;
+			border: 3px solid #e9e7e7;
+			border-radius: 5px;
+
+			margin-bottom: 50px;
+
+		}
+
+	}
+}
