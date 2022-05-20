@@ -1,0 +1,61 @@
+.travel-to-dream {
+	margin-top: 100px;
+	position: relative;
+	.travel-to-dream__bg-image-left{
+		position: absolute;
+		z-index: 0;
+		bottom: -340px;
+		left: -120px;
+		opacity: 0.2;
+	}
+	.travel-to-dream__bg-image-right{
+		position: absolute;
+		right: 0;
+		z-index: 0;
+		top: 250px;
+	}
+	.container {
+		position: relative;
+		z-index: 3;
+		.travel-to-dream__row {
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 160px;
+			.travel-to-dream__info {
+				max-width: 440px;
+				.info__title {
+					font-size: 81.5px;
+					line-height: 81px;
+					font-weight: 700;
+					letter-spacing: -0.025em;
+					color: #232323;
+					margin-bottom: 25px;
+				}
+				.info__text {
+					font-size: 16.7px;
+					line-height: 1.2;
+					font-weight: 400;
+					letter-spacing: -0.025em;
+					color: #232323;
+					margin-bottom: 35px;
+				}
+				.info__button {
+					text-align: center;
+					padding-top: 13px;
+					display: block;
+					width: 256px;
+					height: 54px;
+					background-color: #232323;
+					border-radius: 5px;
+					font-size: 20.9px;
+					line-height: 1.2;
+					font-weight: 700;
+					letter-spacing: -0.025em;
+					color: #e9e7e7;
+				}
+			}
+			.travel-to-dream__image {
+			}
+		}
+	}
+}
