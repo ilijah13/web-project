@@ -299,3 +299,46 @@ body {
   padding-top: 35px;
   max-width: 360px;
 }
+
+.see-places {
+  padding-top: 400px;
+  text-align: center;
+  position: relative;
+}
+.see-places .see-places__rihgt-img {
+  position: absolute;
+  right: 0;
+  bottom: -300px;
+}
+.see-places .container {
+  position: relative;
+}
+.see-places .container .see-places__left-img {
+  position: absolute;
+  left: 30px;
+  bottom: -100px;
+}
+.see-places .see-places__img {
+  margin-bottom: 65px;
+}
+.see-places .see-places__title {
+  font-size: 97.7px;
+  line-height: 97px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #232323;
+  margin: 0 auto;
+  margin-bottom: 65px;
+  max-width: 780px;
+}
+.see-places .see-places__title .see-places__title-never {
+  font-style: italic;
+  text-decoration: underline;
+}
+.see-places .see-places__text {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  color: #232323;
+}
