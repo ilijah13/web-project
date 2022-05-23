@@ -342,3 +342,51 @@ body {
   letter-spacing: -0.025em;
   color: #232323;
 }
+
+.choose-anywhere {
+  background-color: #232323;
+  position: relative;
+}
+.choose-anywhere .choose-anywhere__content-img {
+  position: absolute;
+  top: 160px;
+  right: 150px;
+}
+.choose-anywhere .choose-anywhere__left-img {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+.choose-anywhere .container .choose-anywhere-content {
+  padding-top: 160px;
+  max-width: 460px;
+}
+.choose-anywhere .container .choose-anywhere-content .choose-anywhere__tittle {
+  font-size: 55.5px;
+  line-height: 55px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #e9e7e7;
+  margin-bottom: 100px;
+}
+.choose-anywhere .container .choose-anywhere-content .choose-anywhere-paragraph {
+  margin-bottom: 50px;
+}
+.choose-anywhere .container .choose-anywhere-content .choose-anywhere-paragraph .choose-anywhere__paragraph-title {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  color: #e9e7e7;
+  margin-bottom: 20px;
+}
+.choose-anywhere .container .choose-anywhere-content .choose-anywhere-paragraph .choose-anywhere__paragraph-text {
+  font-size: 16.7px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #e9e7e7;
+}
+.choose-anywhere .container .choose-anywhere-content:last-child {
+  padding-bottom: 105px;
+}
