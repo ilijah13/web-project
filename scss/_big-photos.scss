@@ -1,0 +1,41 @@
+.big-photos {
+	margin-bottom: 50px;
+	.container {
+		.big-photos__row {
+			display: flex;
+			.big-photos__left-img {
+				margin: 0px 43px 0px 0px;
+			}
+			.big-photos__img-text {
+				.img-text__right-img {
+					margin: 0px 0px 75px 0px;
+				}
+				.img-text__text {
+					display: flex;
+					justify-content: space-between;
+					.text__title {
+						font-family: Cardo;
+						font-size: 36.4px;
+						line-height: 50px;
+						font-weight: 700;
+						text-decoration: underline;
+						letter-spacing: -0.025em;
+						color: #232323;
+						margin-right: 10px;
+					}
+					.text__info {
+						font-family: Lato;
+						font-size: 16.7px;
+						line-height: 1.2;
+						font-weight: 400;
+						letter-spacing: -0.025em;
+						color: #232323;
+						p {
+							margin-bottom: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
