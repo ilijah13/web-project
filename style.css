@@ -379,7 +379,7 @@ body {
 }
 
 .big-photos {
-  margin: 270px 0px 50px 0px;
+  margin: 200px 0px 50px 0px;
 }
 
 .big-photos .container .big-photos__row {
@@ -483,4 +483,143 @@ body {
 
 .choose-anywhere .container .choose-anywhere-content:last-child {
   padding-bottom: 105px;
+}
+
+.here-what-to-say-title {
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.here-what-to-say-title .here-what-to-say-title__bg-1 {
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+}
+
+.here-what-to-say-title .here-what-to-say-title__bg-2 {
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__title {
+  margin: 70px auto;
+  max-width: 670px;
+  font-family: Cardo;
+  text-align: center;
+  font-size: 81.5px;
+  line-height: 81px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #232323;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__arrow-left {
+  position: absolute;
+  top: 40%;
+  left: -45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 86px;
+  height: 76px;
+  border: 3px solid #232323;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__arrow-left img {
+  position: absolute;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__arrow-left :nth-child(1) {
+  left: 18px;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cadrs__arrow-right {
+  position: absolute;
+  top: 40%;
+  right: -45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 86px;
+  height: 76px;
+  border: 3px solid #232323;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cadrs__arrow-right img {
+  position: absolute;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cadrs__arrow-right :nth-child(2) {
+  right: 18px;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__card {
+  width: 392px;
+  height: 427px;
+  border: 3px solid #232323;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__card .card__avatar {
+  margin-bottom: 50px;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__card .card__name {
+  font-family: Lato;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  color: #232323;
+}
+
+.here-what-to-say-title .container .here-what-to-say-title__cards .cards__card .card__info {
+  font-family: Lato;
+  text-align: center;
+  font-size: 16.7px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #6d6d6d;
+  margin: 20px 40px;
 }
